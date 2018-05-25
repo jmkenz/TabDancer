@@ -23,11 +23,9 @@
 	</style>
 </head>
 <body>
-	<h1>TabDancer jQuery Plugin</h1>
-	<p>Too many tabs to fit on one line? Hide the ones that don't fit, and reveal them on command.</p>
-	<p>To see the magic, shrink your viewport so that the tabs no longer fit on one line. A new 'more' tab will replace the hidden tabs.</p>
+	<h1>Tabs Plugin for jQuery</h1>
 	<br>
-	<ul class="tabs js-tabs-responsive" data-more-tabs-text="More">
+	<ul class="tabs js-tabs">
 		<li class="tab-active"><a href="#tab-content-1">Tab One</a></li>
 		<li><a href="#tab-content-2">Tab Two</a></li>
 		<li><a href="#tab-content-3">Tab Three</a></li>
@@ -59,7 +57,7 @@
 	<script src="jquery.tabdancer.js"></script>
 	<script>
 	$(document).ready(function(){
-		$('.js-tabs-responsive').TabDancer();
+		$('.js-tabs').TabDancer();
 	});
 	</script>
 </body>
